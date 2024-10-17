@@ -65,6 +65,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         for (i in 6 .. 11){
             linBtn2.addView(btnArray[i])
         }
+
     }
 
     private fun randomBtn(countryName: String?): ArrayList<Button> {
